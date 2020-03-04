@@ -29,7 +29,6 @@ if [ ! -f /tmp/first_run ]; then
         chmod +x /setup/setup.sh
         /setup/setup.sh
     fi
-
     touch /tmp/first_run
 fi
 
